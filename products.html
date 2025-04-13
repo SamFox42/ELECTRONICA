@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог - Electronica</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="rgb-border-container">
+        <header>
+            <div class="logo">
+                <h1><span class="highlight-text">E</span>lectronica</h1>
+                <p class="tagline">Магазин игровых компьютеров</p>
+            </div>
+            <nav>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-button">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="products.html" class="active">Каталог</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="page-banner">
+            <h1>Каталог продукции</h1>
+            <p>Игровые компьютеры и ноутбуки с высокой производительностью</p>
+        </div>
+
+        <section class="product-filters">
+            <div class="filter-container">
+                <div class="filter-group">
+                    <label>Категория:</label>
+                    <select>
+                        <option>Все категории</option>
+                        <option>Игровые ПК</option>
+                        <option>Игровые ноутбуки</option>
+                        <option>Комплектующие</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Цена:</label>
+                    <select>
+                        <option>Любая цена</option>
+                        <option>До 70 000 ₽</option>
+                        <option>70 000 - 100 000 ₽</option>
+                        <option>100 000 - 150 000 ₽</option>
+                        <option>Более 150 000 ₽</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Сортировка:</label>
+                    <select>
+                        <option>По популярности</option>
+                        <option>По цене (возрастание)</option>
+                        <option>По цене (убывание)</option>
+                        <option>По новизне</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <section class="products-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/pc1.jpg" alt="Игровой ПК Ryzen 7 7700">
+                    <div class="product-overlay">
+                        <a href="https://www.avito.ru/naberezhnye_chelny/nastolnye_kompyutery/novyy_igrovoy_pk_ryzen_7_7700_32gb_rtx4070ti_7261250739" class="view-details" target="_blank">Подробнее</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Ryzen 7 7700 RTX 4070Ti</h3>
+                    <p class="specs">Ryzen 7 7700 • 32GB RAM • RTX 4070Ti • SSD</p>
+                    <p class="price">174 000 ₽</p>
+                    <a href="https://www.avito.ru/naberezhnye_chelny/nastolnye_kompyutery/novyy_igrovoy_pk_ryzen_7_7700_32gb_rtx4070ti_7261250739" class="buy-button" target="_blank">Заказать на Авито</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/pc2.jpg" alt="Игровой ПК Ryzen 5 7500f">
+                    <div class="product-overlay">
+                        <a href="https://www.avito.ru/naberezhnye_chelny/nastolnye_kompyutery/novyy_igrovoy_pk_ryzen_5_7500f_c_rtx_5070_12gb_7261740860" class="view-details" target="_blank">Подробнее</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Ryzen 5 7500f RTX 5070</h3>
+                    <p class="specs">Ryzen 5 7500f • 32GB RAM • RTX 5070 12GB • SSD</p>
+                    <p class="price">161 000 ₽</p>
+                    <a href="https://www.avito.ru/naberezhnye_chelny/nastolnye_kompyutery/novyy_igrovoy_pk_ryzen_5_7500f_c_rtx_5070_12gb_7261740860" class="buy-button" target="_blank">Заказать на Авито</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/pc3.jpg" alt="Игровой ПК Ryzen 7 7700">
+                    <div class="product-overlay">
+                        <a href="https://www.avito.ru/naberezhnye_chelny/nastolnye_kompyutery/novyy_igrovoy_pk_ryzen_7_7700_32gb_rtx4070super_4733558672" class="view-details" target="_blank">Подробнее</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Ryzen 7 7700 RTX 4070 Super</h3>
+                    <p class="specs">Ryzen 7 7700 • 32GB RAM • RTX 4070 Super • SSD</p>
+                    <p class="price">168 000 ₽</p>
+                    <a href="https://www.avito.ru/naberezhnye_chelny/nastolnye_kompyutery/novyy_igrovoy_pk_ryzen_7_7700_32gb_rtx4070super_4733558672" class="buy-button" target="_blank">Заказать на Авито</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/laptop1.jpg" alt="Игровой ноутбук Asus Vivo">
+                    <div class="product-overlay">
+                        <a href="https://www.avito.ru/naberezhnye_chelny/noutbuki/igrovoy_noutbuk_asus_vivo_core_i5-13420h_c_rtx4050_7229953183" class="view-details" target="_blank">Подробнее</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Asus Vivo i5-13420h RTX 4050</h3>
+                    <p class="specs">Core i5-13420h • 16GB RAM • RTX 4050 • SSD</p>
+                    <p class="price">73 000 ₽</p>
+                    <a href="https://www.avito.ru/naberezhnye_chelny/noutbuki/igrovoy_noutbuk_asus_vivo_core_i5-13420h_c_rtx4050_7229953183" class="buy-button" target="_blank">Заказать на Авито</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/pc4.jpg" alt="Игровой ПК Core i5-14400f">
+                    <div class="product-overlay">
+                        <a href="https://www.avito.ru/naberezhnye_chelny/nastolnye_kompyutery/novyy_igrovoy_pk_core_i5-14400f_32gb_ssd1t_rtx4070_7261218119" class="view-details" target="_blank">Подробнее</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Core i5-14400f RTX 4070</h3>
+                    <p class="specs">Core i5-14400f • 32GB RAM • RTX 4070 • SSD 1TB</p>
+                    <p class="price">128 000 ₽</p>
+                    <a href="https://www.avito.ru/naberezhnye_chelny/nastolnye_kompyutery/novyy_igrovoy_pk_core_i5-14400f_32gb_ssd1t_rtx4070_7261218119" class="buy-button" target="_blank">Заказать на Авито</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/pc5.jpg" alt="Игровой ПК Ryzen 5 8400f">
+                    <div class="product-overlay">
+                        <a href="https://www.avito.ru/naberezhnye_chelny/nastolnye_kompyutery/novyy_igrovoy_pk_ryzen_5_8400f_32gb_rtx4060ti_7229671629" class="view-details" target="_blank">Подробнее</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Ryzen 5 8400f RTX 4060Ti</h3>
+                    <p class="specs">Ryzen 5 8400f • 32GB RAM • RTX 4060Ti • SSD</p>
+                    <p class="price">107 000 ₽</p>
+                    <a href="https://www.avito.ru/naberezhnye_chelny/nastolnye_kompyutery/novyy_igrovoy_pk_ryzen_5_8400f_32gb_rtx4060ti_7229671629" class="buy-button" target="_blank">Заказать на Авито</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/laptop2.jpg" alt="Игровой ноутбук MSI">
+                    <div class="product-overlay">
+                        <a href="https://www.avito.ru/naberezhnye_chelny/noutbuki/novyy_igrovoy_noutbuk_msi_ryzen_5_7535hs_rtx2050_4734405801" class="view-details" target="_blank">Подробнее</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>MSI Ryzen 5 7535HS RTX 2050</h3>
+                    <p class="specs">Ryzen 5 7535HS • 16GB RAM • RTX 2050 • SSD</p>
+                    <p class="price">59 000 ₽</p>
+                    <a href="https://www.avito.ru/naberezhnye_chelny/noutbuki/novyy_igrovoy_noutbuk_msi_ryzen_5_7535hs_rtx2050_4734405801" class="buy-button" target="_blank">Заказать на Авито</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/laptop3.jpg" alt="Игровой ноутбук Asus Vivo">
+                    <div class="product-overlay">
+                        <a href="https://www.avito.ru/naberezhnye_chelny/noutbuki/igrovoy_noutbuk_asus_vivo_core_i7-13620h_rtx3050_6_7230029750" class="view-details" target="_blank">Подробнее</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Asus Vivo i7-13620h RTX 3050</h3>
+                    <p class="specs">Core i7-13620h • 16GB RAM • RTX 3050 6GB • SSD</p>
+                    <p class="price">65 000 ₽</p>
+                    <a href="https://www.avito.ru/naberezhnye_chelny/noutbuki/igrovoy_noutbuk_asus_vivo_core_i7-13620h_rtx3050_6_7230029750" class="buy-button" target="_blank">Заказать на Авито</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="pagination">
+            <a href="#" class="active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#" class="next">Далее <i class="fas fa-chevron-right"></i></a>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Electronica</h3>
+                    <p>Магазин игровых компьютеров и ноутбуков. Более 6 лет специализируемся на сборке игровых компьютеров!</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Навигация</h3>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="products.html">Каталог</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Набережные Челны, пр-т Вахитова, 14А</p>
+                    <p><i class="fas fa-phone  Набережные Челны, пр-т Вахитова, 14А</p>
+                    <p><i class="fas fa-phone"></i> +7 (999) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@electronica-pc.ru</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Electronica. Все права защищены.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
